@@ -1,5 +1,7 @@
 # Profile_card_component
 
+click the link to see the profile card-https://sumagayathri-999.github.io/Profile_card_component/
+
 # Built by 
 HTML,CSS
 
