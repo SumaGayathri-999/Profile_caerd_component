@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+.root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+body{
+    font-family:Kumbh Sans;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:calc(100vh - 1px);
+    justify-content:center;
+    background-color: hsl(185, 75%, 39%);
+    overflow:hidden;
+}
+.container{
+    position:absolute;
+    max-width:400px;
+    min-height:400px;
+    border-radius: 1.5rem;
+    background-color:white;
+ }
+.avatar{
+   
+   border-radius:50%;
+   border-color:white;
+   border-style: solid;
+   border-width:5px;
+   position:absolute;
+   top:80px;
+   right:130px;
+  align-content: space-around;
+} 
+svg{
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+} 
+.card-back{
+    max-width:100%;
+    width:100%; 
+}
+.bg-top{
+    margin-top:-800px;
+    margin-left:-900px;  
+}
+.bg-bottom{
+    margin-bottom:-800px; 
+    margin-right:-900px;
+}
+.card-top h1{
+    margin-top:50px;
+    text-align: center;
+    font-size:20px;
+    color:hsl(229, 23%, 23%);
+}
+.avatar-name h1 span{
+   color: hsl(0, 0%, 59%);
+}
+.avatar-name p{
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+hr{
+    margin-top:30px;
+}
+.avatar-following
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.avatar-following span{
+    color: hsl(0, 0%, 59%);
+    letter-spacing:1px;
+}
+.avatar-following h1{
+    font-size:20px;
+}
